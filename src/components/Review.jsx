@@ -48,7 +48,7 @@ const Review = () => {
     };
     return (
         <div className=' flex justify-center items-center'>
-            <div className='w-[77rem] text-center'>
+            <div className='xl:w-[77rem] w-[80%] text-center'>
                 <p className=' text-4xl font-bold font-poppins pb-10'> Over 10,000 Happy Customers</p>
                 <div className="relative">
                     <div className="flex overflow-x-scroll pb-10 hide-scroll-bar items-center">

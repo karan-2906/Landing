@@ -38,11 +38,6 @@ function App() {
 
   return (
     <div className="w-[100%]">
-
-      <div className='h-screen bg-cover bg-no-repeat bg-center flex justify-center text-center p-5 items-center bg-hero-pattern text-white text-5xl font-bold font-poppins lg:hidden' >
-        ONLY for Laptop View
-      </div>
-      <div className='hidden lg:flex flex-col'>
         <div className="h-screen">
           <Header />
         </div>
@@ -57,14 +52,14 @@ function App() {
         </div>
 
         <div className="h-fit mt-40">
-          <Banner heigth="40rem" />
+          <Banner heigth="60vh" />
           <Banner2 />
         </div>
 
         <div className="h-fit mt-20 text-center">
           <p className="font-poppins text-4xl pb-6 font-bold">Best selling Juices</p>
           <Products list="second" />
-          <Banner heigth="30rem" padding="6rem" />
+          <Banner heigth="50vh" padding="6rem" />
         </div>
 
         <div className="h-fit mt-20">
@@ -72,7 +67,7 @@ function App() {
           <Blog />
         </div>
 
-        <div className="h-[80rem] mt-4" ref={footerRef}>
+        <div className="h-[40rem] xl:h-[80rem] mt-4 lg:pb-0 pb-10" ref={footerRef}>
           <Last />
         </div>
 
@@ -80,7 +75,6 @@ function App() {
 
         {isFooterVisible && <ScrollToTopButton />}
       </div>
-    </div>
   );
 }
 

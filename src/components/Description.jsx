@@ -4,7 +4,7 @@ import img2 from '../assets/Rectangle 738.png'
 
 const Description = () => {
   return (
-    <div className='flex items-center justify-center gap-16 font-poppins pb-8'>
+    <div className='flex flex-col p-7 2xl:flex-row items-center justify-center gap-16 mx-auto font-poppins pb-8'>
       <div>
         <img src={img1} alt="" className='pb-4'/>
         <h1 className='pb-2 font-medium whitespace-pre'>Light.   Refreshing.   Natural.</h1>

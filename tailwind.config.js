@@ -11,6 +11,7 @@ module.exports = {
         'last2':"url('/src/assets/Frame 448.png')",
         'last3':"url('/src/assets/Frame 659.png')",
         'last4':"url('/src/assets/Frame 448-1.png')",
+        'banner' : "url('/src/assets/juice.png')"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

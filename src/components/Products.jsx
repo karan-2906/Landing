@@ -20,9 +20,9 @@ const Products = ({ list }) => {
   const images = list === 'first' ? first : second;
 
   return (
-    <div className="md:flex justify-center items-center gap-4 pb-20 p-4">
+    <div className="flex flex-wrap justify-center items-center gap-4 pb-20 p-4">
       {images.map((image, index) => (
-        <div className='items-center font-poppins'>
+        <div className=' items-center font-poppins'>
             <div key={index} className="flex justify-center items-center overflow-hidden">
               <img src={image} alt={`Image ${index}`} className="w-[18.5rem] h-[23rem] hover:scale-110" />
             </div>
