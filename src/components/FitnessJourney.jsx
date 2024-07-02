@@ -5,7 +5,7 @@ import img2 from '../assets/Rectangle 743.png'
 
 const FitnessJourney = () => {
   return (
-    <div className='flex mt-20 p-7 items-center justify-center'>
+    <div className='flex  p-7 items-center justify-center'>
       <div className='xl:w-[77rem]  '>
         <div className=''>
           <h1 className='text-4xl font-bold font-poppins'>Start Your Fitness Journey</h1>

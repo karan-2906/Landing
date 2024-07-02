@@ -51,7 +51,7 @@ function App() {
           <FitnessJourney />
         </div>
 
-        <div className="h-fit mt-40">
+        <div className="h-fit mt-20">
           <Banner heigth="60vh" />
           <Banner2 />
         </div>

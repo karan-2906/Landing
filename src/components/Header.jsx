@@ -8,9 +8,11 @@ const Header = () => {
         <p>Welcome to the Store</p>
       </div>
       <Navbar />
-      <div className='h-full pb-36 flex flex-col justify-center items-start px-12 xl:px-28'>
-        <h1 className='text-4xl lg:text-[5.5rem] font-semibold font-poppins'> <p className='flex flex-wrap'>Full Fresh </p><p>100% Homemade </p>Juices</h1>
-        <button className='bg-white font-bold text-xl p-2 text-black hover:bg-gray-100 mt-6 w-56'>
+      <div className='h-full pb-36 flex flex-col justify-center items-start gap-10 px-12 xl:px-28'>
+        <h1 className='text-4xl lg:text-[5.5rem] font-semibold font-poppins'> Full Fresh </h1>
+        <h1 className='text-4xl lg:text-[5.5rem] font-semibold font-poppins'>  100% Homemade</h1>
+        <h1 className='text-4xl lg:text-[5.5rem] font-semibold font-poppins'> Juices</h1>
+        <button className='bg-white font-bold text-xl p-2  text-black hover:bg-gray-100 mt-10 w-56'>
           Explore
         </button>
       </div>
